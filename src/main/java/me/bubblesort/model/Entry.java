@@ -5,6 +5,12 @@ public class Entry {
         this.height = height;
     }
 
+    public Entry(int height, int colour) {
+        this.colour = colour;
+    }
+
     public int height;
     public int colour;
+
+
 }

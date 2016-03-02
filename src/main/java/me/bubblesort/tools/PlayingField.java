@@ -16,7 +16,7 @@ public class PlayingField {
 
         playingField[1][0] = new Entry(2);
         playingField[1][1] = new Entry(5);
-        playingField[1][2] = new Entry(0);
+        playingField[1][2] = new Entry(0,1);
         playingField[1][3] = new Entry(4);
         playingField[1][4] = new Entry(1);
         playingField[1][5] = new Entry(3);
@@ -30,7 +30,7 @@ public class PlayingField {
 
         playingField[3][0] = new Entry(5);
         playingField[3][1] = new Entry(4);
-        playingField[3][2] = new Entry(1);
+        playingField[3][2] = new Entry(1,0);
         playingField[3][3] = new Entry(3);
         playingField[3][4] = new Entry(0);
         playingField[3][5] = new Entry(2);
