@@ -3,6 +3,7 @@ package me.bubblesort.model;
 public class Entry {
     public Entry(int height) {
         this.height = height;
+        this.colour = 7;
     }
 
     public Entry(int height, int colour) {

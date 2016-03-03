@@ -52,10 +52,28 @@ public class PlayingField {
         return playingField;
     }
 
+    public static String getColor(int colorCode){
+        switch(colorCode){
+            case 0:
+                return "o";
+            case 1:
+                return "y";
+            case 2:
+                return "g";
+            case 3:
+                return "b";
+            case 4:
+                return "p";
+            case 5:
+                return "r";
+        }
+        return "error";
+    }
+
     public static Entry [][] copy (Entry [][] playingField) {
         Entry [][] copyField = new Entry[playingField.length][playingField[0].length];
         for (int i = 0; i<playingField.length;++i) {
-            for (int j = 0; j < playingField[i].length; ++i) {
+            for (int j = 0; j < playingField[i].length; ++j) {
                 Entry e = new Entry(playingField[i][j]);
                 copyField[i][j] = e;
             }
