@@ -3,6 +3,10 @@
 This little solver can solve the 36 Cube puzzle by ThinkFun.   
 It could use some more optimizations, but it still prints out possible solutions in just a few seconds.
 
+
+[Solution]: https://pbs.twimg.com/media/CcpPtRzWAAIqCOL.jpg:large "Solution"
+
+
 ## The solution
 *Spoiler Alert*
 The following will reveal the solution and the cubes secret, so to speak.
